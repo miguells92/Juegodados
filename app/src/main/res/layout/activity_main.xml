@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados" />
+
+    <EditText
+        android:id="@+id/dados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Dados"
+
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caras" />
+
+    <EditText
+        android:id="@+id/caras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Caras"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tirar" />
+
+        <TextView
+            android:id="@+id/totalTiradas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/resultadosTiradas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+
+
+
+</LinearLayout>
